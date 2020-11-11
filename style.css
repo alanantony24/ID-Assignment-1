@@ -2,7 +2,37 @@
     margin: 0;
     padding: 0;
 }
-.logo{
-    width: 100px;
-    height: 100px;
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
 }
+.logo img{
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 60px;
+    width: 60px;
+}
+.logo{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+.wrapper nav{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: 23cm;
+    bottom: 1cm;
+    font-size: 25px;
+    
+}
+.wrapper nav a{
+    background-image: linear-gradient(#ddd6f3, #faaca8);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+header{
+    background-image: linear-gradient(#ddd6f3, #faaca8);
+}
+
+
