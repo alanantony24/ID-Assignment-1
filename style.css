@@ -30,5 +30,29 @@
 header{
     background-image: linear-gradient(#ddd6f3, #faaca8);
 }
+body h1{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: 4cm;
+    line-height: 1.2cm;
+    top: 0.75cm;
+    font-size: 40px;
+}
+body p{
+    font-family: 'Merriweather', serif;
+    position: relative;
+    left: 4cm;
+    font-size: 22px;
+    top: 1cm;
+    line-height: 1.1cm;
+    margin-top: 0.5cm;
+}
+.mainpic{
+    height: 510px;
+    width: 400px;
+    position: relative;
+    left: 26cm;
+    bottom: 9cm;
+}
 
 
