@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .logo img{
     margin-top: 50px;
@@ -18,17 +19,15 @@
     left: 23cm;
     bottom: 1cm;
     font-size: 25px;
-    
 }
 .wrapper nav a{
-    background-image: linear-gradient(#ddd6f3, #faaca8);
     border-radius: 15px;
     padding: 15px;
     margin: 5px;
     text-decoration: none;
 }
 header{
-    background-image: linear-gradient(#ddd6f3, #faaca8);
+    background-color: AEAEAE;
 }
 body h1{
     font-family: 'Lato', sans-serif;
@@ -37,6 +36,13 @@ body h1{
     line-height: 1.2cm;
     top: 0.75cm;
     font-size: 40px;
+}
+body h3{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: 10.5cm;
+    top: 4cm;
+    font-size: 25px;
 }
 body p{
     font-family: 'Merriweather', serif;
@@ -48,11 +54,18 @@ body p{
     margin-top: 0.5cm;
 }
 .mainpic{
-    height: 510px;
-    width: 400px;
+    height: 450px;
+    width: 340px;
     position: relative;
-    left: 26cm;
-    bottom: 9cm;
+    left: 27cm;
+    bottom: 9.5cm;
+    border-radius: 15px;
+}
+body{
+    background-image: url(assets/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
