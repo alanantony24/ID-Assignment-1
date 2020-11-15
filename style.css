@@ -41,7 +41,7 @@ body h3{
     top: 4cm;
     font-size: 25px;
 }
-body p{
+.flex-container{
     font-family: 'Merriweather', serif;
     position: relative;
     left: 4cm;
@@ -65,24 +65,53 @@ body{
     background-repeat: no-repeat;
 }
 @media (max-width: 700px){
-    .logo {
-        font-size: 20px;
-        position: relative;
-        right: 2.75cm;     
-    }
     .logo img{
-        height: 33px;
-        width: 33px;
+        margin-left: 25px;
+        height: 35px;
+        width: 35px;
+    }
+    .wrapper nav{
+        font-family: 'Lato', sans-serif;
         position: relative;
+        left: 23cm;
+        bottom: 1cm;
+        font-size: 15px;
     }
     body h1{
-        font-size: 20px;
-        display: flex;
-        bottom:50cm;
+        font-family: 'Lato', sans-serif;
         position: relative;
-        left: 1.5cm;
-        margin-right: 1.5cm;
+        left: 0.5cm;
+        top: 0cm;
+        font-size: 20px;
+        margin-right: 0.75cm;
+        align-items: center;
     }
+    .flex-container{
+        font-family: 'Merriweather', serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0.75cm;
+        position: relative;
+        left: 0.5cm;
+        top: 2cm;
+        font-size: 15px;
+    }
+    br{
+        display: none;
+    }
+    .mainpic{
+        height: 145px;
+        width: 140px;
+        position: relative;
+        left: 3.4cm;
+        bottom: 12.8cm;
+        border-radius: 50%;
+    }
+
+
+    
+
+
 }
 
 
