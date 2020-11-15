@@ -26,9 +26,6 @@
     margin: 5px;
     text-decoration: none;
 }
-header{
-    background-color: AEAEAE;
-}
 body h1{
     font-family: 'Lato', sans-serif;
     position: relative;
@@ -66,6 +63,26 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+@media (max-width: 700px){
+    .logo {
+        font-size: 20px;
+        position: relative;
+        right: 2.75cm;     
+    }
+    .logo img{
+        height: 33px;
+        width: 33px;
+        position: relative;
+    }
+    body h1{
+        font-size: 20px;
+        display: flex;
+        bottom:50cm;
+        position: relative;
+        left: 1.5cm;
+        margin-right: 1.5cm;
+    }
 }
 
 
