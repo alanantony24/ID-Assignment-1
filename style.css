@@ -19,7 +19,7 @@
 }
 .welcometxt{
     max-width: 350px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 h1{
     font-size: 35px;
@@ -38,10 +38,86 @@ h1{
     border: 2px solid #f67c92;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 15px;
+}
+.welcometxt button{
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 p{
-    font-size: 20px;
     line-height: 25px;
     color: #777;
+    font-size: 20px;
+}
+.line1{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #6960EC;
+}
+.line2{
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    background: #6960EC;
+}
+.line3{
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: #6960EC;
+}
+.line{
+    line-height: 15px;
+}
+#navmenu{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    bottom: 17.75cm;
+    left: 27cm;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background: #6960EC;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;  
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 25px;
+    font-style: oblique;
+}
+.about-text h3{
+    font-size: 20px;
+    font-style: oblique;
+    color: darkgrey;
 }
