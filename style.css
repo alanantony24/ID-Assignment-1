@@ -90,33 +90,34 @@ nav ul li a{
 }
 
 
-#about{
+
+#education{
     padding: 100px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.about-left-col{
+.education-left-col{
     flex-basis: 50%;
 }
-.about-left-col img{
+.education-left-col img{
     width: 100%;  
 }
-.about-right-col{
+.education-right-col{
     flex-basis: 50%;
     text-align: right;
 }
-.about-text{
+.education-text{
     max-width: 500px;
     margin-right: 100px;
     display: inline-block;
 }
-.about-text h2{
+.education-text h2{
     margin: 50px 0 10px;
     font-size: 25px;
     font-style: oblique;
 }
-.about-text h3{
+.education-text h3{
     font-size: 20px;
     font-style: oblique;
     color: darkgrey;
