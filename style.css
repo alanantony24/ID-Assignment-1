@@ -88,6 +88,9 @@ nav ul li a{
     padding: 10px;
     border-radius: 15px;
 }
+nav ul li a:hover{
+    text-decoration: underline;
+}
 /*---Alan's Picture----*/
 #alanpic{
     display: flex;
@@ -108,7 +111,6 @@ nav ul li a{
     text-align: center;
     font-size: 20px;
 }
-
 /*-------education----*/
 #education{
     padding: 10px 0;
