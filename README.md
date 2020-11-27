@@ -68,3 +68,14 @@ The graphics were taken from random youtube video descriptions and other webiste
 ### Acknowledgements
 
 I recieved inspiration from some youtube videos namely Danni Krossing, Traversy Media, Easy Tutorias, Dev Ed, Web Dev Simplified. All these videos gave me a deeper understanding and helped me structure my webiste.
+
+### Links
+
+* https://drive.google.com/file/d/1pn6xsKDf5edNDo9xvz2iKvmkZhLMiXTn/view
+* https://www.youtube.com/watch?v=ZYV6dYtz4HA
+* https://www.youtube.com/watch?v=ZeDP-rzOnAA
+* https://www.youtube.com/watch?v=Wm6CUkswsNw
+* https://www.youtube.com/watch?v=a2UnYs9AA_M
+* https://www.freepik.com/
+* https://www.deviantart.com/
+* https://www.flaticon.com/categories/social-media
