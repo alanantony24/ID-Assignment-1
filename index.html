@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="normalize.css" type="text/css"/>
+    
   </head>
   <body>
     <section id="header">
@@ -27,14 +28,30 @@
           </div>
       </div>
       </div>
+    <!--Navigation-->
     </section>
     <nav id="navmenu">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#education">Education and Skills</a></li>
-        <li><a href="#contactform">Contact Me</a></li>
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#education">EDUCATION / SKILLS</a></li>
+        <li><a href="#contactform">CONTACT ME</a></li>
       </ul>
     </nav>
+    <img src="assets/menu.png" alt="MenuICON" id="navtab">
+    <script>
+      var navtab = document.getElementById("navtab");
+      var navmenu = document.getElementById("navmenu");
+
+      navmenu.style.right = "-250px"
+      navtab.onclick = function(){
+        if(navmenu.style.right == "-250px"){
+          navmenu.style.right = "0";
+        }
+        else{
+          navmenu.style.right = "-250px";
+        }
+      }
+    </script>
     <!--Alan's Picture and Quote-->
     <section id="alanpic">
       <div class="profile-pic">
@@ -69,7 +86,7 @@
             His hobbies include Badminton, reading books and film. He is equipped with knowledge in Adobe Premiere Pro, 
             Photoshop, Ligntroom and Snapseed.
           </p><br><br>
-          <button class="button">Go to Top</button>
+          <a href="#header"></a><button class="button">Go to Top</button>
           <div class="line">
             <span class="line1"></span><br>
             <span class="line2"></span><br>
@@ -156,7 +173,7 @@
             <input type="e-mail" placeholder="Enter your Email">
             <input type="phone" placeholder="Enter your Phone">
             <button class="button">Request Contact</button>
-            <button class="button">Go to Top</button>
+            <a href="#header"></a><button class="button">Go to Top</button>
           </form>
           <div class="line">
             <span class="line1"></span><br>
