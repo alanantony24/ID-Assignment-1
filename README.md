@@ -79,3 +79,5 @@ I recieved inspiration from some youtube videos namely Danni Krossing, Traversy 
 * https://www.freepik.com/
 * https://www.deviantart.com/
 * https://www.flaticon.com/categories/social-media
+The link for the GitHub Page
+* https://alanantony24.github.io/ID-Assignment-1/
